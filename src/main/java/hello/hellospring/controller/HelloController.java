@@ -17,7 +17,7 @@ public class HelloController {
     }
 
     //http://localhost:8080/hello?name=spring
-    @GetMapping("hello")
+    @GetMapping("hello-spring")
     @ResponseBody
     public String helloString(@RequestParam("name") String name) {
         return "hello " + name;
